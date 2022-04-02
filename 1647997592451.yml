@@ -5,33 +5,33 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-    - { name: 'V2 香港 Standard A', type: ss, server: v2hktransfer.lineshort.xyz, port: 50005, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 香港 Standard B', type: ss, server: v2hktransfer.lineshort.xyz, port: 50006, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 香港 Standard C', type: ss, server: v2hktransfer.lineshort.xyz, port: 50007, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 香港 Standard D', type: ss, server: v2hktransfer.lineshort.xyz, port: 50008, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 台湾 Standard A', type: ss, server: v2twtransfer.lineshort.xyz, port: 50021, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 台湾 Standard B', type: ss, server: v2twtransfer.lineshort.xyz, port: 50022, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 台湾 Standard C', type: ss, server: v2twtransfer.lineshort.xyz, port: 50023, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 台湾 Standard D', type: ss, server: v2twtransfer.lineshort.xyz, port: 50024, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 新加坡 Standard A', type: ss, server: v2sgtransfer.lineshort.xyz, port: 50037, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 新加坡 Standard B', type: ss, server: v2sgtransfer.lineshort.xyz, port: 50038, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 新加坡 Standard C', type: ss, server: v2sgtransfer.lineshort.xyz, port: 50039, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 新加坡 Standard D', type: ss, server: v2sgtransfer.lineshort.xyz, port: 50040, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 日本 Standard A', type: ss, server: v2jptransfer.lineshort.xyz, port: 50053, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 日本 Standard B', type: ss, server: v2jptransfer.lineshort.xyz, port: 50054, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 日本 Standard C', type: ss, server: v2jptransfer.lineshort.xyz, port: 50055, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 日本 Standard D', type: ss, server: v2jptransfer.lineshort.xyz, port: 50056, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 韩国 Standard A', type: ss, server: v2krtransfer.lineshort.xyz, port: 50103, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 韩国 Standard B', type: ss, server: v2krtransfer.lineshort.xyz, port: 50104, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 美国 Standard A', type: ss, server: v2ustransfer.lineshort.xyz, port: 50069, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 美国 Standard B', type: ss, server: v2ustransfer.lineshort.xyz, port: 50070, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 美国 Standard C', type: ss, server: v2ustransfer.lineshort.xyz, port: 50071, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 美国 Standard D', type: ss, server: v2ustransfer.lineshort.xyz, port: 50072, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 俄罗斯 Standard A', type: ss, server: v2rutransfer.96line.club, port: 50119, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 俄罗斯 Standard B', type: ss, server: v2rutransfer.96line.club, port: 50120, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 英国 Standard A', type: ss, server: v2uktransfer.lineshort.xyz, port: 50111, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 英国 Standard B', type: ss, server: v2uktransfer.lineshort.xyz, port: 50112, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
-    - { name: 'V2 下载专线', type: ss, server: cscu.lineshort.xyz, port: 50085, cipher: chacha20-ietf-poly1305, password: e2ba32ba-00d6-4a49-8486-b6e2a9f6f4fa, udp: true }
+    - { name: 'V2 香港 Standard A', type: ss, server: v2hktransfer.lineshort.xyz, port: 50005, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 香港 Standard B', type: ss, server: v2hktransfer.lineshort.xyz, port: 50006, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 香港 Standard C', type: ss, server: v2hktransfer.lineshort.xyz, port: 50007, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 香港 Standard D', type: ss, server: v2hktransfer.lineshort.xyz, port: 50008, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 台湾 Standard A', type: ss, server: v2twtransfer.lineshort.xyz, port: 50021, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 台湾 Standard B', type: ss, server: v2twtransfer.lineshort.xyz, port: 50022, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 台湾 Standard C', type: ss, server: v2twtransfer.lineshort.xyz, port: 50023, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 台湾 Standard D', type: ss, server: v2twtransfer.lineshort.xyz, port: 50024, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 新加坡 Standard A', type: ss, server: v2sgtransfer.lineshort.xyz, port: 50037, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 新加坡 Standard B', type: ss, server: v2sgtransfer.lineshort.xyz, port: 50038, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 新加坡 Standard C', type: ss, server: v2sgtransfer.lineshort.xyz, port: 50039, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 新加坡 Standard D', type: ss, server: v2sgtransfer.lineshort.xyz, port: 50040, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 日本 Standard A', type: ss, server: v2jptransfer.lineshort.xyz, port: 50053, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 日本 Standard B', type: ss, server: v2jptransfer.lineshort.xyz, port: 50054, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 日本 Standard C', type: ss, server: v2jptransfer.lineshort.xyz, port: 50055, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 日本 Standard D', type: ss, server: v2jptransfer.lineshort.xyz, port: 50056, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 韩国 Standard A', type: ss, server: v2krtransfer.lineshort.xyz, port: 50103, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 韩国 Standard B', type: ss, server: v2krtransfer.lineshort.xyz, port: 50104, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 美国 Standard A', type: ss, server: v2ustransfer.lineshort.xyz, port: 50069, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 美国 Standard B', type: ss, server: v2ustransfer.lineshort.xyz, port: 50070, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 美国 Standard C', type: ss, server: v2ustransfer.lineshort.xyz, port: 50071, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 美国 Standard D', type: ss, server: v2ustransfer.lineshort.xyz, port: 50072, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 俄罗斯 Standard A', type: ss, server: v2rutransfer.lineshort.xyz, port: 50119, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 俄罗斯 Standard B', type: ss, server: v2rutransfer.lineshort.xyz, port: 50120, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 英国 Standard A', type: ss, server: v2uktransfer.lineshort.xyz, port: 50111, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 英国 Standard B', type: ss, server: v2uktransfer.lineshort.xyz, port: 50112, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
+    - { name: 'V2 下载专线', type: ss, server: cscu.lineshort.xyz, port: 50085, cipher: chacha20-ietf-poly1305, password: fbac1fc3-e99e-49d0-bbcd-c0bd21cd4689, udp: true }
 proxy-groups:
     - { name: 96Line, type: select, proxies: [自动选择, 故障转移, 'V2 香港 Standard A', 'V2 香港 Standard B', 'V2 香港 Standard C', 'V2 香港 Standard D', 'V2 台湾 Standard A', 'V2 台湾 Standard B', 'V2 台湾 Standard C', 'V2 台湾 Standard D', 'V2 新加坡 Standard A', 'V2 新加坡 Standard B', 'V2 新加坡 Standard C', 'V2 新加坡 Standard D', 'V2 日本 Standard A', 'V2 日本 Standard B', 'V2 日本 Standard C', 'V2 日本 Standard D', 'V2 韩国 Standard A', 'V2 韩国 Standard B', 'V2 美国 Standard A', 'V2 美国 Standard B', 'V2 美国 Standard C', 'V2 美国 Standard D', 'V2 俄罗斯 Standard A', 'V2 俄罗斯 Standard B', 'V2 英国 Standard A', 'V2 英国 Standard B', 'V2 下载专线'] }
     - { name: 自动选择, type: url-test, proxies: ['V2 香港 Standard A', 'V2 香港 Standard B', 'V2 香港 Standard C', 'V2 香港 Standard D', 'V2 台湾 Standard A', 'V2 台湾 Standard B', 'V2 台湾 Standard C', 'V2 台湾 Standard D', 'V2 新加坡 Standard A', 'V2 新加坡 Standard B', 'V2 新加坡 Standard C', 'V2 新加坡 Standard D', 'V2 日本 Standard A', 'V2 日本 Standard B', 'V2 日本 Standard C', 'V2 日本 Standard D', 'V2 韩国 Standard A', 'V2 韩国 Standard B', 'V2 美国 Standard A', 'V2 美国 Standard B', 'V2 美国 Standard C', 'V2 美国 Standard D', 'V2 俄罗斯 Standard A', 'V2 俄罗斯 Standard B', 'V2 英国 Standard A', 'V2 英国 Standard B', 'V2 下载专线'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
