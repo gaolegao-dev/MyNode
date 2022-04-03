@@ -5,24 +5,22 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-    - { name: '中继 | 香港 01', type: trojan, server: zz01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 711, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '中继 | 香港 02', type: trojan, server: zz01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 712, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '中继 | 香港 03', type: trojan, server: zz01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 713, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '中继 | 日本 01', type: trojan, server: zz01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 721, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '中继 | 新加坡 01', type: trojan, server: zz01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 731, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '中继 | 美国 01', type: trojan, server: zz01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 741, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '直连 | 香港 01', type: trojan, server: hk01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '直连 | 香港 02', type: trojan, server: hk02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '直连 | 香港 03', type: trojan, server: hk03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '直连 | 香港 04', type: trojan, server: hk04.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '直连 | 香港 05', type: trojan, server: hk05.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '直连 | 日本 01', type: trojan, server: jp01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '直连 | 日本 02', type: trojan, server: jp02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
-    - { name: '直连 | 日本 03', type: trojan, server: jp03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: ef8c30cc-e8a8-4dd7-b0ff-701d88d62080, udp: true, sni: gamecdn.cc }
+    - { name: '中继 | 香港 01', type: trojan, server: zz01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 1711, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
+    - { name: '中继 | 香港 02', type: trojan, server: zz01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 1712, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
+    - { name: '中继 | 香港 03', type: trojan, server: zz01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 1713, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
+    - { name: '直连 | 香港 01', type: trojan, server: hk01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
+    - { name: '直连 | 香港 02', type: trojan, server: hk02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
+    - { name: '直连 | 香港 03', type: trojan, server: hk03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
+    - { name: '直连 | 香港 04', type: trojan, server: hk04.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
+    - { name: '直连 | 香港 05', type: trojan, server: hk05.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
+    - { name: '直连 | 日本 01', type: trojan, server: jp01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
+    - { name: '直连 | 日本 02', type: trojan, server: jp02.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
+    - { name: '直连 | 日本 03', type: trojan, server: jp03.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
+    - { name: '直连 |  韩国 01', type: trojan, server: kr01.00000000-0000-0000-0000-000000000000.00000000-0000-0000-0000-000000000000.yiyuan.cyou, port: 443, password: a9cda702-58fd-4d0c-acd4-4ab5d76197ba, udp: true, sni: gamecdn.cc }
 proxy-groups:
-    - { name: 一元机场, type: select, proxies: [自动选择, 故障转移, '中继 | 香港 01', '中继 | 香港 02', '中继 | 香港 03', '中继 | 日本 01', '中继 | 新加坡 01', '中继 | 美国 01', '直连 | 香港 01', '直连 | 香港 02', '直连 | 香港 03', '直连 | 香港 04', '直连 | 香港 05', '直连 | 日本 01', '直连 | 日本 02', '直连 | 日本 03'] }
-    - { name: 自动选择, type: url-test, proxies: ['中继 | 香港 01', '中继 | 香港 02', '中继 | 香港 03', '中继 | 日本 01', '中继 | 新加坡 01', '中继 | 美国 01', '直连 | 香港 01', '直连 | 香港 02', '直连 | 香港 03', '直连 | 香港 04', '直连 | 香港 05', '直连 | 日本 01', '直连 | 日本 02', '直连 | 日本 03'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: ['中继 | 香港 01', '中继 | 香港 02', '中继 | 香港 03', '中继 | 日本 01', '中继 | 新加坡 01', '中继 | 美国 01', '直连 | 香港 01', '直连 | 香港 02', '直连 | 香港 03', '直连 | 香港 04', '直连 | 香港 05', '直连 | 日本 01', '直连 | 日本 02', '直连 | 日本 03'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: 一元机场, type: select, proxies: [自动选择, 故障转移, '中继 | 香港 01', '中继 | 香港 02', '中继 | 香港 03', '直连 | 香港 01', '直连 | 香港 02', '直连 | 香港 03', '直连 | 香港 04', '直连 | 香港 05', '直连 | 日本 01', '直连 | 日本 02', '直连 | 日本 03', '直连 |  韩国 01'] }
+    - { name: 自动选择, type: url-test, proxies: ['中继 | 香港 01', '中继 | 香港 02', '中继 | 香港 03', '直连 | 香港 01', '直连 | 香港 02', '直连 | 香港 03', '直连 | 香港 04', '直连 | 香港 05', '直连 | 日本 01', '直连 | 日本 02', '直连 | 日本 03', '直连 |  韩国 01'], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: ['中继 | 香港 01', '中继 | 香港 02', '中继 | 香港 03', '直连 | 香港 01', '直连 | 香港 02', '直连 | 香港 03', '直连 | 香港 04', '直连 | 香港 05', '直连 | 日本 01', '直连 | 日本 02', '直连 | 日本 03', '直连 |  韩国 01'], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'DOMAIN,xn--4gq62f52gdss.com,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,一元机场'
